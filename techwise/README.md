@@ -45,7 +45,7 @@ Form UX with basic validation and feedback
 bash
 Copy
 Edit
-git clone https://github.com/your-username/mern-reading-tracker.git
+git clone https://github.com/ahmetyellow/mern-reading-tracker.git
 cd mern-reading-tracker
 
 2. Backend Setup
