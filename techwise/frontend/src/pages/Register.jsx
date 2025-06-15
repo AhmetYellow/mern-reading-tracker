@@ -28,7 +28,7 @@ export default function Register() {
 
     if (response.ok) {
       alert("User registered successfully!");
-      navigate("/login"); // ✅ Redirect to login
+      navigate("/login"); 
     } else {
       alert(result.error || "Registration failed");
     }

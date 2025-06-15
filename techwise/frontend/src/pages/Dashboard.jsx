@@ -6,7 +6,6 @@ export default function Dashboard() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
   const [formData, setFormData] = useState({ quran: 0, book: 0 });
 
-  // ✅ Redirect to login if not logged in
   useEffect(() => {
     if (!user) {
       navigate("/login");
